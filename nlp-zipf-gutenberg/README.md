@@ -51,12 +51,12 @@ Then, the same distribution compared against Zipf’s law with different exponen
 
 ![zipf comparison (linear)](./results/zipf_linear.png)
 
-Of these three values, it seems the value a=0.8 might be closest to our empirical distribution. The relationship can be better visualized on a log-log scale* instead of a linear scale: 
+Of these three values, it seems the value a=0.8 might be closest to our empirical distribution. The relationship can be better visualized on a log-log scale[^1] instead of a linear scale: 
 ![zipf comparison (loglog)](./results/zipf_loglog.png)
 
 Based solely on this visualization, it is impossible to rigorously conclude which of the hypothetical Zipf-plots are the closest to the empirical line, but it would seem to fall between the $a=0.8$ and $a=1.0$ lines.
 
-* In a log-log scale, both axes are displayed logarithmically. Because the logarithm turns exponents into multipliers, the power-law relationship intrinsic to Zipf's law that appears hyperbolic (curved) on a linear scale becomes a straight line on a log-log scale. This makes it much easier to see which theoretical slope (value of $a$) best matches the empirical distribution, since deviations from the expected power-law show up as departures from a straight line.
+[^1]: In a log-log scale, both axes are displayed logarithmically. Because the logarithm turns exponents into multipliers, the power-law relationship intrinsic to Zipf's law that appears hyperbolic (curved) on a linear scale becomes a straight line on a log-log scale. This makes it much easier to see which theoretical slope (value of $a$) best matches the empirical distribution, since deviations from the expected power-law show up as departures from a straight line.
 
 ----
 
