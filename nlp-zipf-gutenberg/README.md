@@ -11,9 +11,8 @@ This was done as part of an assignment on Statistical Methods for Text Data Anal
 
 ## Zipf's law
 Zipf's law says that word frequency in a given natural language corpus is inversely proportional to its rank in the frequency table:  
-$$
-p(w) = \frac{1 / \mathrm{rank}(w)^a}{\sum_{k=1}^V 1/k^a}
-$$
+$p(w) = \frac{1 / \mathrm{rank}(w)^a}{\sum_{k=1}^V 1/k^a}$
+
 
 where _p(w)_ is the proportion of the word _w_ in the whole corpus (thus the probability to receive word _w_ on a random draw), and _a_ is an exponent characterizing the distribution.
 
