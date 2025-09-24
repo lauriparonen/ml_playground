@@ -1,0 +1,5 @@
+pickle
+tensorflow
+numpy
+keras
+matplotlib
