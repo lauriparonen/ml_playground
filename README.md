@@ -15,3 +15,5 @@ Some projects are simple weekly assignments from university courses, others are 
     4. saves the top 100 most frequent words and their frequencies
     5. plots the frequencies with matplotlib
     6. also plots three different variations of the Zipf distribution, compared with the empirical data (linear and log-log scales)
+- [fractal-hyperparameters](./fractal-hyperparameters)
+    - exploring the fractal boundaries of trainable versus untrainable neural network hyperparameter configurations
