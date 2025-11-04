@@ -37,11 +37,11 @@ In high-dimensional text data, cosine similarity treats each document vector as 
 Geometrically, think of all documents lying on a hypersphere’s surface. Euclidean distance would draw a straight line between two points, "cutting through" the sphere and thereby producing a distorted measurement of distance (as it ignores the surface). Cosine similarity, on the other hand, measures how far you’d have to *travel along the surface* — the angular separation — which better preserves their relational geometry when the surface itself encodes meaning. In simpler terms: if the vectors point to the same direction (their shared angle is small), the documents are near each other in the vector space, which suggests they are semantically proximate.
 
 Formally:  
-\[
-\text{cosine\_sim}(A,B) = \frac{A \cdot B}{\|A\|\|B\|}
-\]
+$$
+\frac{A \cdot B}{||A|| \ ||B||}
+$$
 
-This yields a score in \([-1, 1]\), where −1 means opposite orientation, 0 means orthogonal (unrelated), and 1 means identical orientation.
+This yields a score in $[-1, 1]$, where −1 means opposite orientation, 0 means orthogonal (unrelated), and 1 means identical orientation.
 
 #### k-means
 k-means iteratively assigns each document to one of *k* clusters based on proximity to cluster centroids, then updates each centroid to be the mean vector of its members.  
